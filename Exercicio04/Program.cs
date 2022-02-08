@@ -10,17 +10,20 @@ namespace Exercicio04
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um número: ");
-            int numero = Convert.ToInt32(Console.ReadLine());
-
-            int resposta = numero % 2;
-
-            if (resposta == 1)
+            while (true)
             {
-                Console.WriteLine("O número é ímpar.");
-            }
+                Console.Write("\nDigite um número: ");
+                int numero = Convert.ToInt32(Console.ReadLine());
 
-            else Console.WriteLine("O número é par.");
+                int resposta = numero % 2;
+
+                if (resposta == 1)
+                {
+                    Console.WriteLine("O número é ímpar.");
+                }
+
+                else Console.WriteLine("O número é par.");
+            }
         }
     }
 }

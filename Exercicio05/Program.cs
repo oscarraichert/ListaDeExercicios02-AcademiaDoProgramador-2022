@@ -25,14 +25,13 @@ namespace Exercicio05
                 if (valorA == valorB)
                 {
                     valorC = valorA + valorB;
-                    Console.WriteLine($"\n{valorC}");
                 }
 
                 else if (valorA != valorB)
                 {
                     valorC = valorA * valorB;
-                    Console.WriteLine($"\n{valorC}");
                 }
+                Console.WriteLine($"\n{valorC}");
             }
 
         }
